@@ -27,7 +27,7 @@ Enable robot, source, build
 ```
 rosrun my_baxter_stuff script.py
 ```
-
+---
 And then you should see the code come to life :)
 
 ## 10. Baxter arm positions
@@ -84,6 +84,7 @@ Here is a quick, simple example:
   Your browser does not support the video tag.
 </video>
 
+---
 ## 11. Programming Baxter through scripts
 
 Here is some test code, plain and simple arm movemnt remeber stand clear!
