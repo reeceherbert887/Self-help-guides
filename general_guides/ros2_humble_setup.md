@@ -11,7 +11,7 @@ sudo apt update
 sudo apt install -y software-properties-common curl gnupg lsb-release
 ```
 
-------------------------------------------------------------------------
+---
 
 # 2. Add ROS2 Repository
 
@@ -33,7 +33,7 @@ Update package list:
 sudo apt update
 ```
 
-------------------------------------------------------------------------
+---
 
 # 3. Install ROS2 Humble
 
@@ -49,7 +49,7 @@ This installs:
 -   build tools
 -   colcon support
 
-------------------------------------------------------------------------
+---
 
 # 4. Setup Environment
 
@@ -75,7 +75,7 @@ Expected output:
 
     humble
 
-------------------------------------------------------------------------
+---
 
 # 5. Install Build Tools
 
@@ -89,7 +89,7 @@ Initialize rosdep:
 sudo rosdep init
 rosdep update
 ```
-------------------------------------------------------------------------
+---
 
 
 # 6. Set ROS Domain ID
@@ -101,7 +101,7 @@ echo "export ROS_DOMAIN_ID=0" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 7. Create Workspace
@@ -119,7 +119,7 @@ echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
 
-------------------------------------------------------------------------
+---
 
 # 8. Test Installation
 
@@ -137,7 +137,7 @@ ros2 run turtlesim turtle_teleop_key
 
 If turtlesim opens, ROS2 is working correctly.
 
-------------------------------------------------------------------------
+---
 
 # Setup Complete
 

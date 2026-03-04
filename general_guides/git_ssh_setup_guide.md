@@ -6,6 +6,7 @@ changes
 
 Works for both **Windows (Git Bash)** and **Linux (Ubuntu)**.
 
+---
 
 
 # 1. One-time setup: Git identity
@@ -23,7 +24,7 @@ Check:
 git config --global --list
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 2. Generate SSH key
@@ -42,7 +43,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 Press Enter for defaults.
 
-------------------------------------------------------------------------
+---
 
 
 # 3. Start SSH agent
@@ -57,7 +58,7 @@ Add key:
 ssh-add ~/.ssh/id_ed25519
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 4. Add SSH key to GitHub
@@ -72,7 +73,7 @@ Copy and add to:
 
 GitHub → Settings → SSH and GPG keys → New SSH key
 
-------------------------------------------------------------------------
+---
 
 
 # 5. Test SSH connection
@@ -87,7 +88,8 @@ Expected output:
 Hi USERNAME! You've successfully authenticated.
 ```
 
-------------------------------------------------------------------------
+---
+
 
 
 # 6. Clone repository
@@ -97,10 +99,9 @@ git clone git@github.com:USERNAME/REPO.git
 cd REPO
 ```
 
-------------------------------------------------------------------------
+---
 
 # 7. Change existing repo from HTTPS to SSH
-
 
 
 ``` bash
@@ -113,7 +114,7 @@ Verify from within the repo:
 git remote -v
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 8. Daily workflow
@@ -130,7 +131,7 @@ Pull latest changes:
 git pull
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 9. Create or edit files
@@ -145,7 +146,7 @@ Save:
 
 CTRL+O → Enter → CTRL+X
 
-------------------------------------------------------------------------
+---
 
 
 # 10. Commit ONE file
@@ -156,7 +157,7 @@ git commit -m "Add test.py"
 git push
 ```
 
-------------------------------------------------------------------------
+---
 
 # 11. Commit ALL changes
 
@@ -166,7 +167,7 @@ git commit -m "Update project"
 git push
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 12. Check repo status
@@ -182,7 +183,7 @@ git status
 git log --oneline
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 14. Summary workflow
@@ -196,7 +197,7 @@ git commit -m "message"
 git push
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 15. File locations
@@ -209,7 +210,7 @@ Windows:
 
     C:\Users\YourName\.ssh\
 
-------------------------------------------------------------------------
+---
 
 
 # 16. SSH advantages

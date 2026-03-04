@@ -30,6 +30,7 @@ Expected output example:
 
     Gazebo multi-robot simulator, version 11.x.x
 
+---
 
 
 # 2. Install ROS2 Gazebo Integration
@@ -45,6 +46,7 @@ Install ROS2 control integration:
 ``` bash
 sudo apt install -y ros-humble-gazebo-ros2-control
 ```
+---
 
 
 # 3. Configure Gazebo Environment
@@ -61,6 +63,7 @@ Add permanently:
 echo "source /usr/share/gazebo/setup.sh" >> ~/.bashrc
 source ~/.bashrc
 ```
+---
 
 
 
@@ -80,6 +83,7 @@ Expected packages include:
 -   gazebo_ros_pkgs
 -   gazebo_ros2_control
 
+---
 
 
 # 5. Test Gazebo
@@ -94,6 +98,7 @@ Close Gazebo properly using:
 
     Ctrl + C
 
+---
 
 
 # Setup Complete
@@ -190,6 +195,7 @@ Save the file, close it and then source it.
 ```
 source ~/.bashrc
 ```
+---
 
 # Ease of Use
 when closing DO NOT cloes the program ctr-c

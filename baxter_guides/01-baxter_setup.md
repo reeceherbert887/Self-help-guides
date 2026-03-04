@@ -1,3 +1,4 @@
+# Baxter setup
 
 ## 1. Create the Workspace
 
@@ -8,7 +9,7 @@ Make sure the name reflects the project's purpose.
 mkdir -p ~/ros_baxter_ws/src
 ```
 
-> It is recommended to keep “ros” in the name, but make the rest meaningful.
+> It is recommended to keep ï¿½rosï¿½ in the name, but make the rest meaningful.
 
 ---
 
@@ -99,6 +100,7 @@ This needs to be:
 ```
 except OSEerror as e:
 ```
+---
 
 ## 7. Setting up a connection to Baxter
 Within baxter_ws, you will need to set both the host and user ID. This needs to be done by the staff.
@@ -110,6 +112,7 @@ You MUST source and build
 ```
 catkin_make
 ```
+---
 
 ## 8. Starting with Baxter
 

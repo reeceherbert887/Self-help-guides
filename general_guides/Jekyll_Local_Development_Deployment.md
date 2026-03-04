@@ -16,7 +16,7 @@ The Hull Robotics Society website uses:
 * Markdown (`.md`) files for content
 * `/media/` folder for images and videos
 
-------------------------------------------------------------------------
+---
 
 
 # 1. Prerequisites
@@ -44,7 +44,7 @@ sudo apt update
 sudo apt install ruby-full build-essential zlib1g-dev git
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 2. Clone the Website Repository
@@ -54,7 +54,7 @@ git clone https://github.com/Hull-Robotics-Society/Hull-Robotics-Society.github.
 cd Hull-Robotics-Society.github.io
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 3. Install Jekyll Dependencies
@@ -76,7 +76,7 @@ Install dependencies:
 bundle install
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 4. Run the Website Locally
@@ -100,7 +100,7 @@ Open browser:
 http://localhost:4000
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 5. Editing the Website
@@ -137,7 +137,7 @@ Example video:
 
 Changes appear instantly after refreshing the browser.
 
-------------------------------------------------------------------------
+---
 
 
 # 6. Stopping the Server
@@ -148,7 +148,7 @@ Press:
 CTRL + C
 ```
 
-------------------------------------------------------------------------
+---
 
 
 # 7. Deploy Changes to GitHub Pages
@@ -187,7 +187,7 @@ Live site:
 https://hull-robotics-society.github.io/
 ```
 
-------------------------------------------------------------------------
+---
 
 # 8. Recommended .gitignore
 
@@ -202,7 +202,7 @@ vendor/
 
 This prevents local build files from being uploaded.
 
-------------------------------------------------------------------------
+---
 
 # 9. Common Commands Reference
 
@@ -248,7 +248,7 @@ Pull latest changes:
 git pull
 ```
 
-------------------------------------------------------------------------
+---
 
 # 10. Folder Structure Overview
 
@@ -266,7 +266,8 @@ Hull-Robotics-Society.github.io/
 ├── _config.yml
 ```
 
-------------------------------------------------------------------------
+---
+
 
 # 11. Development Workflow Summary
 
@@ -284,11 +285,8 @@ git commit -m "message"
 git push
 ```
 
-------------------------------------------------------------------------
+---
 
 # 12. Gemfile for each OS
 
-
-
-------------------------------------------------------------------------
 
