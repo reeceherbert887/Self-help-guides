@@ -13,7 +13,7 @@ The system enables real‑time servo control from a web dashboard via MQTT, with
 
 ---
 
-## System Architecture
+# 1.  System Architecture
 
 ```
 Node‑RED (Dashboard/UI)
@@ -30,7 +30,7 @@ Servo Motor
 
 ---
 
-## Prerequisites
+# 2. Prerequisites
 
 * Ubuntu (or similar Linux)
 * Arduino IDE (AppImage recommended)
@@ -42,7 +42,7 @@ Servo Motor
 
 ---
 
-## Software Setup
+# 3.  Software Setup
 
 ### 1) Install Node‑RED
 
@@ -76,7 +76,7 @@ mosquitto_pub -h localhost -t test -m "hello"
 
 ---
 
-## Network Setup
+# 4. Network Setup
 
 ### Problem Encountered
 
@@ -177,8 +177,7 @@ void loop() {
 
 ---
 
-## Node‑RED Flow
-
+# 5. Node‑RED Flow
 ### Recommended (no feedback loop)
 
 ```
